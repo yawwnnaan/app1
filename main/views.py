@@ -3,16 +3,19 @@ from django.shortcuts import render
 
 def index(request):
     context = {
-        'title': 'Home',
-        'content': 'Главная страница магазина - HOME',
-        'list': ['first', 'second'],
-        'dict': {'first': 1},
-        'is_autheticated': False
+        'title': 'Home - Главная',
+        'content': "Магазин мебели HOME"
     }
 
     return render(request, 'main/index.html', context)
 
 def about(request):
-    return HttpResponse('About page')
+    context = {
+        'title': 'Home - О нас',
+        'content': "О нас",
+        'text_on_page': "QAAAADGDffgvhjklkj dfghj fgxdf fxzsertfgb jbhv."
+    }
+
+    return render(request, 'main/about.html', context)
 
 # Create your views here.
