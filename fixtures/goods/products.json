@@ -1,58 +1,14 @@
 [
-{
-    "model": "goods.categories",
-    "pk": 4,
-    "fields": {
-        "name": "��� ������",
-        "slug": "all"
-    }
-},
-{
-    "model": "goods.categories",
-    "pk": 5,
-    "fields": {
-        "name": "�����",
-        "slug": "kuhnya"
-    }
-},
-{
-    "model": "goods.categories",
-    "pk": 6,
-    "fields": {
-        "name": "�������",
-        "slug": "spalnya"
-    }
-},
-{
-    "model": "goods.categories",
-    "pk": 7,
-    "fields": {
-        "name": "��������",
-        "slug": "gostinaya"
-    }
-},
-{
-    "model": "goods.categories",
-    "pk": 8,
-    "fields": {
-        "name": "����",
-        "slug": "ofis"
-    }
-},
-{
-    "model": "goods.categories",
-    "pk": 9,
-    "fields": {
-        "name": "���������",
-        "slug": "furnitura"
-    }
-},
-{
-    "model": "goods.categories",
-    "pk": 10,
-    "fields": {
-        "name": "�����",
-        "slug": "dekor"
-    }
-}
+    {"model": "goods.products", "pk": 1, "fields": {"name": "Чайный столик и три стула", "slug": "chajnyj-stolik-i-tri-stula", "description": "Набор для чаепития с деревянными ножками и стульями.", "image": "goods_images/set_of_tea_table_and_three_chairs.jpg", "price": "150.00", "discount": "10.00", "quantity": 20, "category": 5}},
+    {"model": "goods.products", "pk": 2, "fields": {"name": "Чайный столик и два стула", "slug": "chajnyj-stolik-i-dva-stula", "description": "Набор для чаепития с двумя стульями и деревянными ножками.", "image": "goods_images/set_of_tea_table_and_two_chairs.jpg", "price": "93.00", "discount": "5.00", "quantity": 5, "category": 5}},
+    {"model": "goods.products", "pk": 3, "fields": {"name": "Двуспальная кровать", "slug": "dvuhspalnaya-krovat", "description": "Кровать с ортопедическим матрасом и деревянным каркасом.", "image": "goods_images/double_bed.jpg", "price": "760.00", "discount": "30.00", "quantity": 30, "category": 6}},
+    {"model": "goods.products", "pk": 4, "fields": {"name": "Кухонный стол с раковиной", "slug": "kuhonnyj-stol-s-rakovinoj", "description": "Стол с встроенной раковиной и полками.", "image": "goods_images/kitchen_table.jpg", "price": "365.00", "discount": "10.00", "quantity": 10, "category": 5}},
+    {"model": "goods.products", "pk": 5, "fields": {"name": "Кухонный стол с встроенной плитой", "slug": "kuhonnyj-stol-s-vstrojkoj", "description": "Стол с встроенной плитой для приготовления пищи.", "image": "goods_images/kitchen_table_2_hgDLnib.jpg", "price": "430.00", "discount": "0.00", "quantity": 15, "category": 5}},
+    {"model": "goods.products", "pk": 6, "fields": {"name": "Угловой диван для гостиной", "slug": "uglovoj-divan-dlya-gostinnoj", "description": "Комфортный угловой диван, идеально подходит для гостиной.", "image": "goods_images/corner_sofa.jpg", "price": "610.00", "discount": "2.00", "quantity": 5, "category": 7}},
+    {"model": "goods.products", "pk": 7, "fields": {"name": "Прикроватный столик", "slug": "prikrovatnyj-stolik", "description": "Столик с полками для удобства хранения у кровати.", "image": "goods_images/bedside_table.jpg", "price": "55.00", "discount": "40.00", "quantity": 50, "category": 7}},
+    {"model": "goods.products", "pk": 8, "fields": {"name": "Диван обыкновенный", "slug": "divan-obyknovennyj", "description": "Удобный и стильный диван для любой комнаты.", "image": "goods_images/sofa.jpg", "price": "190.00", "discount": "0.00", "quantity": 10, "category": 7}},
+    {"model": "goods.products", "pk": 9, "fields": {"name": "Стул офисный", "slug": "stul-ofisnyj", "description": "Офисный стул с регулировкой высоты и подлокотниками.", "image": "goods_images/office_chair.jpg", "price": "30.00", "discount": "5.00", "quantity": 35, "category": 8}},
+    {"model": "goods.products", "pk": 10, "fields": {"name": "Растение", "slug": "rastenie", "description": "Цветущее растение для декора и улучшения атмосферы в помещении.", "image": "goods_images/flower.jpg", "price": "10.00", "discount": "0.00", "quantity": 45, "category": 10}},
+    {"model": "goods.products", "pk": 11, "fields": {"name": "Цветок стилизованный", "slug": "cvetok-stilizirovannyj", "description": "Декоративный цветок с необычным дизайном.", "image": "goods_images/plants.jpg", "price": "15.00", "discount": "0.00", "quantity": 20, "category": 10}},
+    {"model": "goods.products", "pk": 12, "fields": {"name": "Прикроватный столик 2", "slug": "prikrovatnyj-stolik2", "description": "Маленький столик с полками, подходит для спальни.", "image": "goods_images/strange_table.jpg", "price": "20.00", "discount": "90.00", "quantity": 5, "category": 6}}
 ]
